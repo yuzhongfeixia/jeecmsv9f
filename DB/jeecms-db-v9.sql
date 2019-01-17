@@ -734,7 +734,7 @@ CREATE TABLE `jc_config` (
 # Dumping data for table jc_config
 #
 
-INSERT INTO `jc_config` (`config_id`,`context_path`,`servlet_point`,`port`,`db_file_uri`,`is_upload_to_db`,`def_img`,`login_url`,`process_url`,`mark_on`,`mark_width`,`mark_height`,`mark_image`,`mark_content`,`mark_size`,`mark_color`,`mark_alpha`,`mark_position`,`mark_offset_x`,`mark_offset_y`,`count_clear_time`,`count_copy_time`,`download_code`,`download_time`,`email_host`,`email_encoding`,`email_username`,`email_password`,`email_personal`,`email_validate`,`view_only_checked`,`flow_clear_time`,`channel_count_clear_time`) VALUES (1,'/jeecmsv8f',NULL,8080,'/dbfile.svl?n=',0,'/r/cms/www/no_picture.gif','/login.jspx',NULL,0,120,120,'/r/cms/www/watermark.png','www.jeecms.com',40,'#FF0000',100,1,0,0,'2016-10-14','2016-10-14 09:56:20','jeecms',12,NULL,NULL,NULL,NULL,NULL,0,0,'2016-10-14','2016-10-13');
+INSERT INTO `jc_config` (`config_id`,`context_path`,`servlet_point`,`port`,`db_file_uri`,`is_upload_to_db`,`def_img`,`login_url`,`process_url`,`mark_on`,`mark_width`,`mark_height`,`mark_image`,`mark_content`,`mark_size`,`mark_color`,`mark_alpha`,`mark_position`,`mark_offset_x`,`mark_offset_y`,`count_clear_time`,`count_copy_time`,`download_code`,`download_time`,`email_host`,`email_encoding`,`email_username`,`email_password`,`email_personal`,`email_validate`,`view_only_checked`,`flow_clear_time`,`channel_count_clear_time`) VALUES (1,'',NULL,8080,'/dbfile.svl?n=',0,'/r/cms/www/no_picture.gif','/login.jspx',NULL,0,120,120,'/r/cms/www/watermark.png','www.jeecms.com',40,'#FF0000',100,1,0,0,'2016-10-14','2016-10-14 09:56:20','jeecms',12,NULL,NULL,NULL,NULL,NULL,0,0,'2016-10-14','2016-10-13');
 
 #
 # Source for table jc_config_attr
